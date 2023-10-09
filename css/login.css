@@ -1,0 +1,52 @@
+.titulo{
+    color: #ffffff;
+    font-family: Metal Mania;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-block-end: 100px;
+}
+
+.usuario{
+    color: #ffffff;
+    font-family: Metal Mania;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.senha{
+    color: #ffffff;
+    font-family: Metal Mania;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200;
+}
+
+.footer {
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto no footer (branco) */
+    padding: -50px 0; /* Espaçamento interno nas bordas superior e inferior (reduzido para tornar o footer mais curto) */
+    text-align: center; /* Alinhamento de texto no centro */
+    font-size: 14px; /* Tamanho da fonte */
+    position: fixed; /* Torna o footer fixo na parte inferior */
+    left: 0; /* Fixa o footer no lado esquerdo */
+    bottom: 0; /* Fixa o footer na parte inferior */
+    width: 100%; /* Ocupa toda a largura */
+}
+
+
+

@@ -1,0 +1,50 @@
+body {
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f2f2f2;
+}
+
+.header{
+    display: flex;
+}
+
+.nav {
+    background-image: url('img/nav2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    position: fixed; /* Torna a barra de navegação fixa */
+    top: 0; /* Afixa a barra de navegação no topo da janela do navegador */
+    left: 0; /* Afixa a barra de navegação no lado esquerdo da janela */
+    right: 0; /* Afixa a barra de navegação no lado direito da janela */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.logo {
+    width: 121px;
+    height: 75px;
+    left: 10px;
+    top: px; /* Aproxima a logo 15 pixels do topo */
+    font-family: Metal Mania;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.temporario{
+    bottom: auto;
+}
