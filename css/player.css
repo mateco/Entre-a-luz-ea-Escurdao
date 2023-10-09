@@ -19,23 +19,29 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 80px; /* Ajuste a altura conforme necessário */
+    height: 80px;
     display: flex;
     align-items: center;
+
     justify-content: space-between;
     color: white; /* Cor do texto */
     font-family: Arial, sans-serif;
-    position: fixed; /* Torna a barra de navegação fixa */
-    top: 0; /* Afixa a barra de navegação no topo da janela do navegador */
-    left: 0; /* Afixa a barra de navegação no lado esquerdo da janela */
-    right: 0; /* Afixa a barra de navegação no lado direito da janela */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 0;
     margin: 0;
+    position: absolute;
+    
 }
 
-
-
 .logo {
+    width: 100%;
+    height: 100%;
+    margin-right: 20px; /* Adicionado para espaço entre logo e canto direito */
+    margin-top: px;
+    position: relative;
     font-family: "Metal Mania";
     font-size: 15px;
     font-weight: 400;
@@ -43,6 +49,7 @@ body {
     letter-spacing: 0em;
     text-align: left;
 }
+
 
 
 .temporario{
