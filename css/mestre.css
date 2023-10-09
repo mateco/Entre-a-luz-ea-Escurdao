@@ -11,37 +11,43 @@ margin-left: 15%;
 }
 
 .nav-bar{ /*Barra de navegacao*/
-background-image: url(img/fundo-nav.png.avif);
-display: flex;
-height: 85px;
-width: 1530px;
-align-items: center;
-border-style: solid;
-border-width:2px;
-border-color: #CDCAAC;
-justify-content: space-between;
+    background-image: url('img/nav2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px; /* Ajuste a altura conforme necessário */
+    display: flex;
+    align-items: center;
+    color: white; /* Cor do texto */
+    font-family: Arial, sans-serif;
+    position: fixed; /* Torna a barra de navegação fixa */
+    top: 0; /* Afixa a barra de navegação no topo da janela do navegador */
+    left: 0; /* Afixa a barra de navegação no lado esquerdo da janela */
+    right: 0; /* Afixa a barra de navegação no lado direito da janela */
+    padding: 0;
+    margin: 0;
 
 }
 
 .Timer {
-    height: 70px;
-    width: 70px;
+    height:50px;
+    width: 50px;
     background-color: #898989;
     image-resolution: 100%;
     border-color: black;
 
 }
 .imgbotao{
-    height: 70px;
-    width: 70px; 
+    height: 50px;
+    width: 50px; 
     image-resolution: 50%;
     background-color: transparent;
     border: none;
 }
 
 .buttonsTimer{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     background-color: transparent;
     border: none;
     cursor: pointer;
@@ -55,16 +61,16 @@ justify-content: space-between;
     border-style:solid;
     border-width:2px;
     border-color:#CDCAAC ;
-    margin-left:10% ;
+    margin-left:15% ;
     box-sizing: content-box;
-    width: 500px;
-    height: 70px;
+    width: 370px;
+    height: 50px;
 }
 
 .Contador{
     margin-top: 5.5%;
-    margin-left: 20%;
-    font-size: 45px;
+    margin-left: 17%;
+    font-size: 35px;
     justify-content: center;
 }
 
@@ -77,22 +83,22 @@ justify-content: space-between;
     border-width:2px;
     border-color: #CDCAAC;
     margin-right: 5%;
-    margin-left: 15%x;
+    margin-left: 20%;
     box-sizing: content-box;
-    width: 563px;
-    height: 70px;
+    width: 412px;
+    height: 50px;
 
 }
 
 .imgDice{
-    width: 70px;    
-    height: 70px;
+    width: 50px;    
+    height: 50px;
     background-color: transparent;
 }
 
 .buttonsDice{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -101,13 +107,16 @@ justify-content: space-between;
 
 
 .resultDice{
-    width: 68px;
-    height:65px;
+    width: 48px;
+    height:48px;
+    margin-left: 20%;
+    margin-bottom: 15%;
     font-size: 45px;
     text-align: center;
-    border-style: solid;
+    color: green;
+  /*  border-style: solid;
     border-width:2px;
-    border-color: #000000;
+    border-color: #000000;*/
     
 }
 
@@ -115,6 +124,8 @@ justify-content: space-between;
     display: flex  ;
     width: 600px;
     right: 400px;
+    margin-top: 45%;
+    margin-left: 15%;
     border-style:solid;
     border-width:2px;
     border-color:#CDCAAC 
@@ -123,6 +134,10 @@ justify-content: space-between;
 
 
 .backGround{
-    display: flex;
-    background-image: url(img/fundo.jpg);
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #f2f2f2;
 }
