@@ -109,31 +109,57 @@ margin-left: 15%;
 .resultDice{
     width: 48px;
     height:48px;
-    margin-left: 20%;
-    margin-bottom: 15%;
+    margin-left: 27%;
+    margin-bottom: 17%;
     font-size: 45px;
     text-align: center;
     color: green;
+    background-color: grey;
   /*  border-style: solid;
     border-width:2px;
     border-color: #000000;*/
     
 }
 
-.viewFile{
-    display: flex  ;
-    width: 600px;
-    right: 400px;
-    margin-top: 45%;
-    margin-left: 15%;
+.viewFile{ /*Aba de visualizacao de arquivos dpo mestre*/
+    width: 770px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 13%;
+    background-color: #898989;
     border-style:solid;
     border-width:2px;
-    border-color:#CDCAAC 
+    border-color:#CDCAAC
+   
+   
 }
 
+.masterlibrary{/*Biblioteca do mestre*/
 
+    width: 470px;
+    height: 500px;
+    margin-top: 13%;
+    background-color: #898989;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC
+}
+
+.tabTitle{
+    width: 150px;
+    height: 40px;
+    margin-top: -5.6%;
+    margin-left: -0.2%;
+    background-color: #898989;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC
+}
 
 .backGround{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-image: url('img/fundo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
