@@ -6,64 +6,65 @@
     <link rel="stylesheet" href="css/mestre.css">
     <title>areaDoMestre</title>
 </head>
-<header> <!-- header para fazer a barra superior da area do mestre -->
-    <nav> <!-- barra de navegação da página-->
+    <header> <!-- header para fazer a barra superior da area do mestre -->
+        <nav class="nav-bar"> <!-- barra de navegação da página-->
 
-      <section> <!-- section para o titulo da página -->
-        <div> 
-            <h1>Entre a Luz e a Escuridão</h1>
-        </div>
-      </section>  
+        <section> <!-- section para o titulo da página -->
+            <div> 
+                <h1 class="logo">Entre a Luz  <br>e a Escuridão</h1>
+            </div>
+        </section>  
+        <section class="barraTimer"> <!-- section para o cronometro -->
+            <div> <!-- imagem para o cronometro -->
+                <img src="css/img/timer.png" alt="imagem para o cronometro" class="Timer"/>
+            </div>
+            
+            <div> <!-- botao start cronometro -->
+                <button type="button" class="buttonsTimer"> <img src="css/img/play.png" alt="imagem para o botao de start" class="imgbotao"/></button> 
+            </div>
+            <div> <!-- botao pause cronometro -->
+                <button type="button" class="buttonsTimer"> <img src="css/img/stop.png" alt="imagem para o botao de pausa"  class="imgbotao"/></button> 
+            </div>
+            <div> <!-- botao reset cronometro -->
+            <button type="button" class="buttonsTimer"> <img src="css/img/reset.png" alt="imagem para o botao de reset" class="imgbotao"/></button>
+            </div>
+            <div> <!-- div para exibir o tempo passando do cronometro -->
+                <p class="Contador">00:00:00</p>
+            </div>
+    
+        </section>
 
-      <section> <!-- section para o cronometro -->
-        <div> <!-- imagem para o cronometro -->
-            <img src="" alt="imagem para o cronometro"/>
-        </div>
-        <div> <!-- botao start cronometro -->
-            <button type="button"> <img src="" alt="imagem para o botao de start" /></button>
-        </div>
-        <div> <!-- botao pause cronometro -->
-            <button type="button"> <img src="" alt="imagem para o botao de pausa" /></button>
-        </div>
-        <div> <!-- botao reset cronometro -->
-            <button type="button"> <img src="" alt="imagem para o botao de reset" /></button>
-        </div>
-        <div> <!-- div para exibir o tempo passando do cronometro -->
-            <p>00/00/00</p>
-        </div>
-      </section>
-
-      <section> <!-- section para a ferramenta de rolagem de dados -->
-        <div> <!-- botao para D20 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D20" /></button>
-        </div>
-        <div> <!-- botao para D12 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D12" /></button>
-        </div>
-        <div> <!-- botao para D10 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D10" /></button>
-        </div>
-        <div> <!-- botao para D8 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D8" /></button>
-        </div>
-        <div> <!-- botao para D6 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D6" /></button>
-        </div>
-        <div> <!-- botao para D4 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D4" /></button>
-        </div>
-        <div> <!-- botao para D100 -->
-            <button type="button"> <img src="" alt="imagem para o botao de D100" /></button>
-        </div>
-        <div> <!-- div para exibir o resultado da rolagem -->
-           <p>20</p>
-        </div>
-      </section>
-    </nav>
-</header>
-<body>
-    <section>
-        <div> <!-- div para exibir as abas abertas pelo mestre --></div>
+        <section class="barraDados"> <!-- section para a ferramenta de rolagem de dados -->
+            <div> <!-- botao para D20 -->
+                <button type="button"class="buttonsDice"> <img src="css/img/d20.png" alt="imagem para o botao de D20" class="imgDice" /></button>
+            </div>
+            <div> <!-- botao para D12 -->
+                <button type="button"class="buttonsDice"> <img src="css/img/d12.png" alt="imagem para o botao de D12" class="imgDice" /></button>
+            </div>
+            <div> <!-- botao para D10 -->
+                <button type="button"class="buttonsDice"> <img src="css/img/d10.png" alt="imagem para o botao de D10" class="imgDice" /></button>
+            </div>
+            <div> <!-- botao para D8 -->
+                <button type="button" class="buttonsDice"> <img src="css/img/d8.png" alt="imagem para o botao de D8" class="imgDice" /></button>
+            </div>
+            <div> <!-- botao para D6 -->
+                <button type="button" class="buttonsDice"> <img src="css/img/d6.png" alt="imagem para o botao de D6" class="imgDice" /></button>
+            </div>
+            <div> <!-- botao para D4 -->
+                <button type="button" class="buttonsDice"> <img src="css/img/d4.png" alt="imagem para o botao de D4" class="imgDice" /></button>
+            </div>
+            <div> <!-- botao para D100 -->
+                <button type="button" class="buttonsDice"> <img src="css/img/d100.png " alt="imagem para o botao de D100" class="imgDice" /></button>
+            </div>
+            <div> <!-- div para exibir o resultado da rolagem -->
+            <p class="resultDice">20</p>
+            </div>
+        </section>
+        </nav>
+    </header>
+<body class="backGround">
+    <section class="">
+        <div class=""> <!-- div para exibir as abas abertas pelo mestre --></div>
     </section>
     <section> <!-- section para o mestre navegar nos arquivos abertos -->
         <div></div>

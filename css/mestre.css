@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+font-family:"Metal Mania";
+color: yellow;
+margin-left: 15%;
+}
+
+.nav-bar{ /*Barra de navegacao*/
+background-image: url(img/fundo-nav.png.avif);
+display: flex;
+height: 85px;
+width: 1530px;
+align-items: center;
+border-style: solid;
+border-width:2px;
+border-color: #CDCAAC;
+justify-content: space-between;
+
+}
+
+.Timer {
+    height: 70px;
+    width: 70px;
+    background-color: #898989;
+    image-resolution: 100%;
+    border-color: black;
+
+}
+.imgbotao{
+    height: 70px;
+    width: 70px; 
+    image-resolution: 50%;
+    background-color: transparent;
+    border: none;
+}
+
+.buttonsTimer{
+    height: 70px;
+    width: 70px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.barraTimer{
+    display: inline-flex;
+    justify-content: start;
+    text-align:start;
+    background-color: #D9D9D9;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC ;
+    margin-left:10% ;
+    box-sizing: content-box;
+    width: 500px;
+    height: 70px;
+}
+
+.Contador{
+    margin-top: 5.5%;
+    margin-left: 20%;
+    font-size: 45px;
+    justify-content: center;
+}
+
+
+.barraDados{
+    display: inline-flex;
+    justify-content: start;
+    background-color: #D9D9D9;
+    border-style: solid;
+    border-width:2px;
+    border-color: #CDCAAC;
+    margin-right: 5%;
+    margin-left: 15%x;
+    box-sizing: content-box;
+    width: 563px;
+    height: 70px;
+
+}
+
+.imgDice{
+    width: 70px;    
+    height: 70px;
+    background-color: transparent;
+}
+
+.buttonsDice{
+    width: 70px;
+    height: 70px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+
+.resultDice{
+    width: 68px;
+    height:65px;
+    font-size: 45px;
+    text-align: center;
+    border-style: solid;
+    border-width:2px;
+    border-color: #000000;
+    
+}
+
+.viewFile{
+    display: flex  ;
+    width: 600px;
+    right: 400px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC 
+}
+
+
+
+.backGround{
+    display: flex;
+    background-image: url(img/fundo.jpg);
+}
