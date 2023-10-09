@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 body {
     background-image: url('img/fundo.jpg');
     background-size: cover;
@@ -19,6 +22,7 @@ body {
     height: 80px; /* Ajuste a altura conforme necessário */
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: white; /* Cor do texto */
     font-family: Arial, sans-serif;
     position: fixed; /* Torna a barra de navegação fixa */
@@ -32,12 +36,8 @@ body {
 
 
 .logo {
-    width: 121px;
-    height: 75px;
-    left: 10px;
-    top: px; /* Aproxima a logo 15 pixels do topo */
-    font-family: Metal Mania;
-    font-size: 20px;
+    font-family: "Metal Mania";
+    font-size: 15px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
@@ -47,4 +47,81 @@ body {
 
 .temporario{
     bottom: auto;
+}
+
+/* -Cronometro*/
+
+.barraTimer{ /*Barra do cronometro*/
+    display: inline-flex;
+    justify-content: start;
+    text-align:start;
+    background-color: #D9D9D9;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC ;
+    margin-left:15% ;
+    box-sizing: content-box;
+    width: 220px;
+    height: 50px;
+}
+
+.Timer {
+    height:50px;
+    width: 50px;
+    background-color: #898989;
+    image-resolution: 100%;
+    border-color: black;
+}
+
+.Contador{ /*String do contador*/
+    margin-top: 5.5%;
+    margin-left: 17%;
+    font-size: 35px;
+    justify-content: center;
+}
+
+/* Sistema de dados*/
+.barraDados{
+    display: inline-flex;
+    justify-content: start;
+    background-color: #D9D9D9;
+    border-style: solid;
+    border-width:2px;
+    border-color: #CDCAAC;
+    margin-right: 5%;
+    margin-left: 20%;
+    box-sizing: content-box;
+    width: 420px;
+    height: 50px;
+
+}
+
+.imgDice{
+    width: 50px;    
+    height: 50px;
+    background-color: transparent;
+}
+
+.buttonsDice{
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    
+}
+
+
+.resultDice{
+    width: 48px;
+    height:48px;
+    margin-top: 1%;
+    margin-left: 25%;
+    font-size: 45px;
+    text-align: center;
+    color: green;
+  /*  border-style: solid;
+    border-width:2px;
+    border-color: #000000;*/
+    
 }
