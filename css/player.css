@@ -37,17 +37,8 @@ body {
 }
 
 .logo {
-    width: 100%;
-    height: 100%;
-    margin-right: 20px; /* Adicionado para espaço entre logo e canto direito */
-    margin-top: px;
-    position: relative;
-    font-family: "Metal Mania";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 31px;
-    letter-spacing: 0em;
-    text-align: left;
+    width: 150px;
+    height: 75px;
 }
 
 
@@ -98,7 +89,7 @@ body {
     margin-right: 5%;
     margin-left: 20%;
     box-sizing: content-box;
-    width: 420  spx;
+    width: 423px;
     height: 50px;
 
 }
@@ -120,15 +111,53 @@ body {
 
 
 .resultDice{
-    width: 48px;
-    height:48px;
-    margin-top: 1%;
-    margin-left: 25%;
+    width: 53px;
+    height:50px;
+    margin-top:0%;
+    margin-left: 38%;
     font-size: 45px;
     text-align: center;
     color: green;
+    background-color: #898989;
   /*  border-style: solid;
     border-width:2px;
     border-color: #000000;*/
     
+}
+
+/*Visualizacao das ficha e anotacoes*/
+.viewFile{ /*Aba de visualizacao de arquivos dpo mestre*/
+    width: 770px;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 13%;
+    background-color: #898989;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC
+   
+   
+}
+
+.anotacoes{/*Biblioteca do mestre*/
+
+    width: 470px;
+    height: 500px;
+    margin-top: -27.95%;
+    margin-left: 65%;
+    background-color: #898989;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC
+}
+
+.tabTitle{
+    width: 150px;
+    height: 40px;
+    margin-top: -5.6%;
+    margin-left: -0.2%;
+    background-color: #898989;
+    border-style:solid;
+    border-width:2px;
+    border-color:#CDCAAC
 }
