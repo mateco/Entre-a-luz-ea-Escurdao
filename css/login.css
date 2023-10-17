@@ -1,6 +1,6 @@
 .titulo{
-    color: #ffffff;
-    font-family: Metal Mania;
+    color: #e8a4ff;
+    font-family: 'Chaillot', sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -12,7 +12,7 @@
 }
 
 .usuario{
-    color: #ffffff;
+    color: #000000;
     font-family: Metal Mania;
     font-size: 20px;
     font-style: normal;
@@ -24,7 +24,7 @@
 }
 
 .senha{
-    color: #ffffff;
+    color: #000000;
     font-family: Metal Mania;
     font-size: 20px;
     font-style: normal;
